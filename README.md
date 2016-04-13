@@ -5,6 +5,6 @@ For a proper usage of this app you need will to allow this page using your locat
 ##### Base technologies:
 - AJAX;
 - CSS3 animations;
-- Jquary;
+- Jquery;
 
 ### You can test run this app with [gh-pages](http://lempiy.github.io/weather-app).
