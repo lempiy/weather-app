@@ -1,6 +1,6 @@
 # Weather-app
 This simple API Weather application shows weather based on your geolocation.
-For a proper usage of this app you need to allow this page using your location data.
+For a proper usage of this app you need will to allow this page using your location data.
 
 ##### Base technologies:
 - AJAX;
