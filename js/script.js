@@ -37,5 +37,4 @@ if (navigator.geolocation) {
         console.log(tempDegrees);
       });
     });
-  );
 }
