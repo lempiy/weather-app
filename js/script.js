@@ -1,8 +1,5 @@
 if (navigator.geolocation) {
-  navigator.geolocation.getCurrentPosition(function(position) {
-    var lat = +position.coords.latitude;
-    var lon = +position.coords.longitude;
-    $.getJSON('http://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + lon + '&APPID=d6ab2a080ff038a60a2f86616bcd6c0d', function(json) {
+    $.getJSON('http://api.openweathermap.org/data/2.5/weather?q=London', function(json) {
       var sky = json.weather[0].main;
       $('h4').html(sky)
       var cityName = json.name;
@@ -40,5 +37,5 @@ if (navigator.geolocation) {
         console.log(tempDegrees);
       });
     });
-  });
+  );
 }
