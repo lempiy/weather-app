@@ -1,4 +1,4 @@
-if (navigator.geolocation) {
+
     $.getJSON('http://api.openweathermap.org/data/2.5/weather?q=Kyiv&APPID=d5b0ae0537ab1ecc654ed2ca12eff48c', function(json) {
       var sky = json.weather[0].main;
       $('h4').html(sky)
@@ -37,4 +37,4 @@ if (navigator.geolocation) {
         console.log(tempDegrees);
       });
     });
-}
+
