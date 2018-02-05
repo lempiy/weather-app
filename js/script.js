@@ -11,7 +11,7 @@
       $('h2').text(temperatCels + '℃');
       console.log(json);
       if (sky === 'Clear') {
-        $('.img-container').append("<img src='images/sun_brilliant_abstract.png' class='back-img img-responsive' alt='sun' />");
+        $('.img-container').append("<img src='images/sun_brilliant_abstract_T.png' class='back-img img-responsive' alt='sun' />");
       }
       if (sky === 'Clouds') {
         $('.img-container').append("<img src='http://www.clker.com/cliparts/N/8/w/H/a/t/cloud-blue-hi.png' class='cloudone-img img-responsive' alt='cloudone' /><img src='http://www.clker.com/cliparts/a/G/t/e/m/W/solid-white-cloud-th.png' class='cloudtwo-img img-responsive' alt='cloutwo' />");
